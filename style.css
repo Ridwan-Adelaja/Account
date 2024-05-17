@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.account-card {
+  background-color: #fff;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 560px;
+  margin-top: non;
+}
+
+.account-card h2 {
+  text-align: center;
+}
+
+.account-card label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.account-card input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+.google-btn {
+  background-color: grey;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 300px;
+}
+
+.google-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+.Create-acc {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: orangered;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 1px;
+  width: 300px;
+}
+.text {
+  color: grey;
+}
+.text-or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
